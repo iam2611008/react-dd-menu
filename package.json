@@ -1,7 +1,7 @@
 {
-  "name": "react-dd-menu",
-  "version": "2.0.2",
-  "description": "A react dropdown menu.",
+  "name": "react-dd-menu-customized",
+  "version": "1.0.0",
+  "description": "A react dropdown menu has no click event.",
   "main": "dist/index.js",
   "scripts": {
     "scripts": "babel ./src/js --out-dir ./dist",

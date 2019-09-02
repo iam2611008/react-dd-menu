@@ -71,7 +71,7 @@ export default class NestedDropdownMenu extends PureComponent {
 
   render() {
     const { toggle, children, nested, animate, direction, upwards, enterTimeout, leaveTimeout } = this.props;
-    const isOpen = this.state.isHoverOpen || this.state.isClickOpen;
+    const isOpen = this.state.isHoverOpen;
 
     let itemProps = {
       className: classnames('nested-dd-menu', `nested-${nested}`),
